@@ -1,4 +1,4 @@
-import Counter from './Counter'
+import Counter from './Couter'
 
 export default function App() {
   return (
