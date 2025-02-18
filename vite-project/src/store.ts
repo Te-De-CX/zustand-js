@@ -25,7 +25,7 @@ const useStore = create<CounterState>()(
           })),
         reset: () => set({ count: 0 }),
       }),
-      { name: "counter-storage" }
+      { name: "counter-storage" } ///store it in the local storage with this name, that was why we used persist
     )
   )
 );
